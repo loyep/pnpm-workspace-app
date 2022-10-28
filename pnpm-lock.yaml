@@ -1,0 +1,27 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/a:
+    specifiers: {}
+
+  packages/b:
+    specifiers:
+      '@pnpm-app/c': workspace:*
+    dependencies:
+      '@pnpm-app/c': link:../c
+
+  packages/c:
+    specifiers: {}
+
+  packages/d:
+    specifiers:
+      '@pnpm-app/c': workspace:*
+    dependencies:
+      '@pnpm-app/c': link:../c
+
+  packages/e:
+    specifiers: {}

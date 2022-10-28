@@ -1,0 +1,12 @@
+{
+  "name": "pnpm-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter \"@pnpm-app/*\" build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

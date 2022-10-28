@@ -1,0 +1,15 @@
+{
+  "name": "@pnpm-app/d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"build d\""
+  },
+  "keywords": [],
+  "dependencies": {
+    "@pnpm-app/c": "workspace:*"
+  },
+  "author": "",
+  "license": "ISC"
+}

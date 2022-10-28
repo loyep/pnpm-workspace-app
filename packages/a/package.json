@@ -1,0 +1,12 @@
+{
+  "name": "@pnpm-app/a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"build a\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
