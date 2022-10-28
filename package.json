@@ -6,6 +6,11 @@
   "scripts": {
     "build": "pnpm --filter \"@pnpm-app/*\" build"
   },
+  "packageManager": "pnpm@7.14.0",
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0",
+    "pnpm": ">=7"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
